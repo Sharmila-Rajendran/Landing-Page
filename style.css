@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sale{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.row{
+    margin: 40px;
+}
+
+.col-6 img{
+    width: 650px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.col-6 button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#text{
+    text-align: center;
+    padding: 150px 10px;
+}
+
+.col-4 img{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
