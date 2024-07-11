@@ -4,6 +4,8 @@ body{
 }
 
 .sale{
+    margin: 0p;
+    position: fixed;
     background-color: black;
     color: white;
     text-align: center;
@@ -11,12 +13,17 @@ body{
 }
 
 .row{
-    margin: 40px;
+    margin: 50px 0px;
+}
+
+.col-6{
+    background-color: bisque;
 }
 
 .col-6 img{
-    width: 650px;
-    border: 1px solid grey;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid transparent;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -28,6 +35,8 @@ body{
     background-color: black;
     color: white;
     border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 #text{
@@ -36,7 +45,12 @@ body{
 }
 
 .col-4 img{
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: center;
 }
+
+.container-fluid{
+    padding: 0;
+}
+
